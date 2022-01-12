@@ -1,0 +1,20 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~camera_index_left" : \b [int] Left camera device index, e.g. 0 for /dev/video0 min: 0, default: 1, max: 10
+- \b "~camera_index_right" : \b [int] Right camera device index, e.g. 1 for /dev/video1 min: 0, default: 2, max: 10
+- \b "~frame_width" : \b [int] Frame width min: 1, default: 640, max: 2000
+- \b "~frame_height" : \b [int] Frame height min: 1, default: 480, max: 2000
+- \b "~fps" : \b [double] Frames Per Second (FPS) min: 0.0, default: 30.0, max: 120.0
+- \b "~fourcc" : \b [str] FourCC code min: , default: YUYV, max: 
+- \b "~brightness" : \b [double] Brightness min: 0.0, default: 0.5, max: 1.0
+- \b "~contrast" : \b [double] Contrast min: 0.0, default: 1.0, max: 1.0
+- \b "~saturation" : \b [double] Saturation min: 0.0, default: 1.0, max: 1.0
+- \b "~hue" : \b [double] Hue min: 0.0, default: 0.5, max: 1.0
+- \b "~gain" : \b [double] Gain min: 0.0, default: 0.0, max: 1.0
+- \b "~exposure" : \b [double] Exposure min: 0.0, default: 0.5, max: 1.0
+- \b "~frame_id" : \b [str] ROS tf frame of reference, resolved with tf_prefix unless absolute. min: , default: camera, max: 
+- \b "~camera_info_url_left" : \b [str] Left camera [[camera_info_manager#URL_Names|calibration URL]] for this video_mode (uncalibrated if null). min: , default: , max: 
+- \b "~camera_info_url_right" : \b [str] Right camera [[camera_info_manager#URL_Names|calibration URL]] for this video_mode (uncalibrated if null). min: , default: , max: 
+

@@ -1,0 +1,2 @@
+chapter4_tutorials/chapter4_tutorials:chapter4_tutorials/robot1_description:chapter4_tutorials/robot1_gazebo:chapter5_tutorials:chapter6_tutorials:odom_tf
+-DCATKIN_DEVEL_PREFIX=/home/kimsanggil/study_ws/devel -DCMAKE_INSTALL_PREFIX=/home/kimsanggil/study_ws/install -G Unix Makefiles

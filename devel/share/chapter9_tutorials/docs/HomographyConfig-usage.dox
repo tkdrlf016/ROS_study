@@ -1,0 +1,11 @@
+\subsubsection usage Usage
+\verbatim
+<node name="Homography" pkg="chapter9_tutorials" type="Homography">
+  <param name="detector" type="str" value="ORB" />
+  <param name="descriptor" type="str" value="SURF" />
+  <param name="matcher" type="str" value="FlannBased" />
+  <param name="filter" type="str" value="CrossCheckFilter" />
+  <param name="threshold" type="double" value="1.0" />
+</node>
+\endverbatim
+

@@ -1,0 +1,10 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~detector" : \b [str] Feature detector. min: , default: ORB, max: 
+- \b "~descriptor" : \b [str] Descriptor extractor. min: , default: SURF, max: 
+- \b "~matcher" : \b [str] Descriptor matcher. min: , default: FlannBased, max: 
+- \b "~filter" : \b [str] Matcher filter. min: , default: CrossCheckFilter, max: 
+- \b "~threshold" : \b [double] RANSAC reprojection threshold. min: 0.0, default: 1.0, max: 10.0
+

@@ -1,0 +1,21 @@
+\subsubsection usage Usage
+\verbatim
+<node name="CameraStereo" pkg="chapter9_tutorials" type="CameraStereo">
+  <param name="camera_index_left" type="int" value="1" />
+  <param name="camera_index_right" type="int" value="2" />
+  <param name="frame_width" type="int" value="640" />
+  <param name="frame_height" type="int" value="480" />
+  <param name="fps" type="double" value="30.0" />
+  <param name="fourcc" type="str" value="YUYV" />
+  <param name="brightness" type="double" value="0.5" />
+  <param name="contrast" type="double" value="1.0" />
+  <param name="saturation" type="double" value="1.0" />
+  <param name="hue" type="double" value="0.5" />
+  <param name="gain" type="double" value="0.0" />
+  <param name="exposure" type="double" value="0.5" />
+  <param name="frame_id" type="str" value="camera" />
+  <param name="camera_info_url_left" type="str" value="" />
+  <param name="camera_info_url_right" type="str" value="" />
+</node>
+\endverbatim
+
